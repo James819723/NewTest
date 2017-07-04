@@ -11,6 +11,7 @@ namespace GitWithVS.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            ViewBag.Title = "ABCD";
             ViewBag.TitleOri = "ABCD";
             return View();
         }
